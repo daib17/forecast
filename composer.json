@@ -1,0 +1,31 @@
+{
+    "name": "daib17/weather-module",
+    "description": "Anax weather forecast module.",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Daniel Ibanez",
+            "email": "dibanezalegria@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Anax\\": "src/",
+            "daib17\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "anax/commons": "^2.0.0@beta",
+        "anax/anax-ramverk1-me": "^1.0.0",
+        "anax/anax-cli": "^1.1"
+    },
+    "require-dev": {
+        "phpmetrics/phpmetrics": "^2",
+        "phpunit/phpunit": "^7",
+        "anax/anax-lite": "^1.0.24"
+    }
+}
