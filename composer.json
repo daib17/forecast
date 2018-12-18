@@ -1,5 +1,5 @@
 {
-    "name": "daib17/weather-module",
+    "name": "daib17/forecast",
     "description": "Anax weather forecast module.",
     "license": "MIT",
     "minimum-stability": "beta",
@@ -7,7 +7,6 @@
     "authors": [
         {
             "name": "Daniel Ibanez",
-            "email": "dibanezalegria@yahoo.com",
             "role": "Developer"
         }
     ],
