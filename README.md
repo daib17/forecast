@@ -32,6 +32,9 @@ Copy the needed configuration and setup the forecast as a route handler for the 
 
 ```
 rsync -av vendor/daib17/forecast/config ./
+rsync -av vendor/daib17/forecast/src ./
+rsync -av vendor/daib17/forecast/test ./
+rsync -av vendor/daib17/forecast/view ./
 ```
 
 The module is now active on the route `forecast/` according to the API documentation. You may try it out on the route `json/forecast` to get results in JSON format.
@@ -39,10 +42,10 @@ The module is now active on the route `forecast/` according to the API documenta
 Optionally you may copy the API documentation.
 
 ```
-rsync -av vendor/daib17/forecast/content/index.md content/forecast-api.md
+rsync -av vendor/daib17/forecast/content/index.md content/api-forecast.md
 ```
 
-The API documentation is now available through the route `forecast-api`.
+The API documentation is now available through the route `api-forecast`.
 
 
 
@@ -64,14 +67,14 @@ Install and setup Anax
 
 You need a Anax installation, before you can use this module. You can create a sample Anax installation, using the scaffolding utility [`anax-cli`](https://github.com/canax/anax-cli).
 
-Scaffold a sample Anax installation `anax-site-develop` into the directory `forecast`.
+Scaffold a sample Anax installation `anax-site-develop` into the directory `weather`.
 
 ```
-$ anax create forecast anax-site-develop
-$ cd forecast
+$ anax create weather anax-site-develop
+$ cd weather
 ```
 
-Point your webserver to `forecast/htdocs` and Anax should display a Home-page.
+Point your webserver to `weather/htdocs` and Anax should display a Home-page.
 
 
 

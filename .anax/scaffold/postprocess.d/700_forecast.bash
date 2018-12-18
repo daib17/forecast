@@ -6,13 +6,13 @@
 #
 
 # Copy config
-rsync -av vendor/daib17/weather-module/config ./
+rsync -av vendor/daib17/forecast/config ./
 
 # Copy src
-rsync -av vendor/daib17/weather-module/src ./
+rsync -av vendor/daib17/forecast/src ./
 
 # Copy test
-rsync -av vendor/daib17/weather-module/test ./
+rsync -av vendor/daib17/forecast/test ./
 
 # Copy view
-rsync -av vendor/daib17/weather-module/view ./
+rsync -av vendor/daib17/forecast/view ./
