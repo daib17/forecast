@@ -25,14 +25,14 @@ class ForecastJsonControllerTest extends TestCase
     public function setUp()
     {
         global $di;
-        
+
         $this->di = new DIFactoryConfig();
         $this->di->loadServices(ANAX_INSTALL_PATH . "/config/di");
 
         // Set global $di for view helpers
         $di = $this->di;
 
-        $this->controller = new ForecastController();
+        $this->controller = new ForecastJsonController();
         $this->controller->setDI($this->di);
     }
 
