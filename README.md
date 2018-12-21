@@ -3,6 +3,9 @@ Weather Forecast Module
 
 [![Build Status](https://travis-ci.com/daib17/forecast.svg?branch=master)](https://travis-ci.com/daib17/forecast/)
 [![CircleCI](https://circleci.com/gh/daib17/forecast.svg?style=svg)](https://circleci.com/gh/daib17/forecast)
+[![Build Status](https://scrutinizer-ci.com/g/daib17/forecast/badges/build.png?b=master)](https://scrutinizer-ci.com/g/daib17/forecast/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/daib17/forecast/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/daib17/forecast/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/daib17/forecast/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/daib17/forecast/?branch=master)
 
 
 The Weather Forecast module allows you to request both forecasts and historical weather data from the past month.
