@@ -1,6 +1,9 @@
 Weather Forecast Module
 ==================================
 
+[![Build Status](https://travis-ci.com/daib17/forecast.svg?branch=master)](https://travis-ci.com/daib17/forecast/)
+
+
 The Weather Forecast module allows you to request both forecasts and historical weather data from the past month.
 
 

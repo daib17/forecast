@@ -3,6 +3,6 @@
  * Config file for API keys.
  */
 return [
-    "darksky" => "705b58d9ae70c6daa603f5b55b75da59",
+    "darksky" => "22254992bf08c2b83c81ba7470fe11ad",
     "ipstack" => "03a38350318f8afa3cc5dcd5ee6bd323"
 ];
