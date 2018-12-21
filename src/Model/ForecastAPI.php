@@ -43,7 +43,7 @@ class ForecastAPI implements ContainerInjectableInterface
             $this->getApiKey() . '/' . $this->lat . ',' . $this->lon . '?units=si');
         } else {
             // Last 30 days
-            $res = $this->multi(3); // 3 for testing
+            $res = $this->multi(30); 
         }
 
         return $res;
